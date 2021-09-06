@@ -97,9 +97,7 @@ int main(int argc, char const *argv[]) {
 		printf("Array's size is %d\n", array_size(&a));
 	}
 
-	for (int i = 0; i < a.size; ++i)
-
-		array_free(&a);
+	array_free(&a);
 
 	return 0;
 }
